@@ -3,7 +3,6 @@
 :root
 {
     --background-image: url('./D2.png') center/cover no-repeat;
-    --background-image-1: url('./Aside-D.png') center/cover no-repeat;
     --bg-black-900:#151515;
     --bg-black-100:#222222;
     --bg-black-50:#393939;
@@ -14,7 +13,6 @@
 body.light
 {
     --background-image: url('./L1.png') center/cover no-repeat;
-    --background-image-1: url('./Aside-L.png') center/cover no-repeat;
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
@@ -172,7 +170,7 @@ ul
 .aside
 {
     width: 270px;
-    background: var(--background-image-1);
+    background: var(--bg-black-100);
     position: fixed;
     left: 0;
     top: 0;
